@@ -1,0 +1,7 @@
+02-21 15:38 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+02-21 15:39 werkzeug     INFO     127.0.0.1 - - [21/Feb/2021 15:39:28] "[37mGET / HTTP/1.1[0m" 200 -
+02-21 15:39 werkzeug     INFO     127.0.0.1 - - [21/Feb/2021 15:39:29] "[37mGET /static/nordwood-themes-kRNZiGKtz48-unsplash.jpg HTTP/1.1[0m" 200 -
+02-21 15:41 werkzeug     INFO     127.0.0.1 - - [21/Feb/2021 15:41:13] "[37mGET /form1.html HTTP/1.1[0m" 200 -
+02-21 15:41 werkzeug     INFO     127.0.0.1 - - [21/Feb/2021 15:41:15] "[33mGET /nordwood-themes-kRNZiGKtz48-unsplash.jpg HTTP/1.1[0m" 404 -
+02-21 15:42 werkzeug     INFO     127.0.0.1 - - [21/Feb/2021 15:42:13] "[37mGET /form1.html HTTP/1.1[0m" 200 -
+02-21 15:42 werkzeug     INFO     127.0.0.1 - - [21/Feb/2021 15:42:13] "[33mGET /nordwood-themes-kRNZiGKtz48-unsplash.jpg HTTP/1.1[0m" 404 -

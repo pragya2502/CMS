@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Registration Page</title>
+</head>
+<body style='color:darkmagenta; font-size:medium;'>
+    
+    <form action = "{{ url_for('complaint_form') }}" method = "POST">
+        <h1 style="color: red; background-color: yellowgreen;"><center>Complaint Registration Form</center></h1>
+
+        <h4 style="border: 2px solid black; width: fit-content; background-color: aqua;">First Name:</h4>
+        <input type = "text" name = "first_name" /> <br>
+        
+        <h4 style="border: 2px solid black; width: fit-content; background-color: aqua;">Last Name:</h4>
+        <input type = "text" name = "last_name" /></br>
+        
+        <h4 style="border: 2px solid black; width: fit-content; background-color: aqua;">City:</h4>
+        <input type = "text" name = "city" /><br>
+        
+        <h4 style="border: 2px solid black; width: fit-content; background-color: aqua;">Country:</h4>
+        <input type = "text" name = "country" /><br>
+
+        <h4 style="border: 2px solid black; width: fit-content; background-color: aqua;">Issue:</h4>
+        <input type = "text" name = "issue" /><br>
+
+        <input type = "submit" value = "SUBMIT" />
+        <b><H2>{{complaint_status}}</H2></b>
+     </form>
+</body>
+</html>
